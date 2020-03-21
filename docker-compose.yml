@@ -1,0 +1,9 @@
+version: '3'
+services:
+  object-detector:
+    image: miyabioinc/object-detector:latest
+    build: .
+    ports:
+      - "5050:5000"
+    container_name:
+      object-detector
