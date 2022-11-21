@@ -4,7 +4,7 @@ requests
 numpy
 matplotlib
 keras
-tensorflow==1.15.2
+tensorflow==2.9.3
 pillow
 opencv-python
 werkzeug==0.16.1
